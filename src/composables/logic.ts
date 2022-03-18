@@ -1,6 +1,6 @@
 import type { Ref } from 'vue'
 // import type createSeedrandom from 'seedrandom'
-import type { BlockState } from '~/type/type'
+import type { BlockState } from '~/types'
 
 const directions = [
   [1, 1],
@@ -220,7 +220,7 @@ export class GamePlay {
     if (status === 'lost') {
       this.showAllMines()
       setTimeout(() => {
-        alert('lost')
+        alert('game over')
       }, 10)
     }
   }

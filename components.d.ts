@@ -5,8 +5,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Confetti: typeof import('./src/components/Confetti.vue')['default']
-    Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    MineBlock: typeof import('./src/components/MineBlock.vue')['default']
   }
 }
 

@@ -1,50 +1,93 @@
 <script setup lang="ts">
-const name = ref('')
+// import { isDev, toggleDev } from '~/composables'
+import { GamePlay } from '~/composables/logic'
 
-const router = useRouter()
-const go = () => {
-  if (name.value)
-    router.push(`/hi/${encodeURIComponent(name.value)}`)
+const play = new GamePlay(6, 6, 3)
+
+const now = $(useNow())
+const timerMS = $computed(() => Math.round(((play.state.value.endMS ?? +now) - (play.state.value.startMS ?? +now)) / 1000))
+
+useStorage('vuesweeper-state', play.state)
+const state = $computed(() => play.board)
+
+const mineRest = $computed(() => {
+  if (!play.state.value.mineGenerated)
+    return play.mines
+  return play.blocks.reduce((a, b) => a + (b.mine ? 1 : 0) - (b.flagged ? 1 : 0), 0)
+})
+
+function newGame(difficulty: 'easy' | 'medium' | 'hard') {
+  switch (difficulty) {
+    case 'easy':
+      play.reset(9, 9, 10)
+      break
+    case 'medium':
+      play.reset(16, 16, 40)
+      break
+    case 'hard':
+      play.reset(16, 30, 99)
+      break
+  }
 }
+
+watchEffect(() => {
+  play.checkGameState()
+})
 </script>
 
 <template>
   <div>
-    <div i-carbon:auto-scroll text-4xl inline-block />
-    <p>
-      <a rel="noreferrer" href="https://github.com/xiaoxunyao/viden" target="_blank">
-        Viden
-      </a>
-    </p>
-    <p>
-      <em text-sm op75>Opinionated Vite Starter Template</em>
-    </p>
+    Minesweeper
 
-    <div py-4 />
-
-    <input
-      id="input"
-      v-model="name"
-      placeholder="What's your name?"
-      type="text"
-      autocomplete="false"
-      p="x-4 y-2"
-      w="250px"
-      text="center"
-      bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
-      @keydown.enter="go"
-    >
-
-    <div>
-      <button
-        class="m-3 text-sm btn"
-        :disabled="!name"
-        @click="go"
-      >
-        Go
+    <div flex="~ gap1" justify-center p4>
+      <button btn @click="play.reset()">
+        New Game
+      </button>
+      <button btn @click="newGame('easy')">
+        Easy
+      </button>
+      <button btn @click="newGame('medium')">
+        Medium
+      </button>
+      <button btn @click="newGame('hard')">
+        Hard
       </button>
     </div>
+
+    <div flex="~ gap-10" justify-center>
+      <div font-mono text-2xl flex="~ gap-1" items-center>
+        <div i-carbon-timer />
+        {{ timerMS }}
+      </div>
+      <div font-mono text-2xl flex="~ gap-1" items-center>
+        <div i-mdi-mine />
+        {{ mineRest }}
+      </div>
+    </div>
+
+    <div p5 w-full overflow-auto>
+      <div
+        v-for="row, y in state"
+        :key="y"
+        flex="~"
+        items-center justify-center w-max ma
+      >
+        <MineBlock
+          v-for="block, x in row" :key="x"
+          :block="block"
+          @click="play.onClick(block)"
+          @dblclick="play.autoExpand(block)"
+          @contextmenu.prevent="play.onRightClick(block)"
+        />
+      </div>
+    </div>
+
+    <!-- <div flex="~ gap-1" justify-center>
+      <button btn @click="toggleDev()">
+        {{ isDev ? 'DEV' : 'NORMAL' }}
+      </button>
+    </div> -->
+
+    <Confetti :passed="play.state.value.status === 'won'" />
   </div>
 </template>
