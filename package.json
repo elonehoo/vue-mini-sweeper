@@ -35,7 +35,7 @@
     "unplugin-vue-components": "0.22.3",
     "vite": "2.9.14",
     "vite-plugin-pages": "0.25.0",
-    "vitest": "0.6.3"
+    "vitest": "0.21.1"
   },
   "eslintConfig": {
     "extends": "@antfu"
