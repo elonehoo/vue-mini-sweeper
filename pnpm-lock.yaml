@@ -7,7 +7,7 @@ specifiers:
   '@types/canvas-confetti': 1.4.3
   '@types/node': 17.0.45
   '@types/seedrandom': 3.0.2
-  '@unocss/reset': 0.45.5
+  '@unocss/reset': 0.45.12
   '@vitejs/plugin-vue': 3.0.1
   '@vue/test-utils': 2.0.2
   '@vueuse/core': 9.1.1
@@ -40,7 +40,7 @@ devDependencies:
   '@types/canvas-confetti': 1.4.3
   '@types/node': 17.0.45
   '@types/seedrandom': 3.0.2
-  '@unocss/reset': 0.45.5
+  '@unocss/reset': 0.45.12
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.9+vue@3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
   eslint: 8.21.0
@@ -647,10 +647,6 @@ packages:
 
   /@unocss/reset/0.45.12:
     resolution: {integrity: sha512-4HldzkLErjp90W9RMkMgnDbFQzZNz+cpLTB/3Wnj9UqvIBYAZ+gfZ7Y7YEntFKmHLMV1W+6emnuMNI4qS3B0Jg==}
-    dev: true
-
-  /@unocss/reset/0.45.5:
-    resolution: {integrity: sha512-JDFRoc1H0Tk1knRGI+LljOKrKkWrF1txJ50DG3oa+azTdQaX0wDQ4isyDM6PbodydhEqYCsZcJEL/2pEiPRg8A==}
     dev: true
 
   /@unocss/scope/0.45.12:
