@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@vueuse/core": "8.9.4",
+    "@vueuse/core": "9.1.1",
     "canvas-confetti": "1.5.1",
     "seedrandom": "3.0.5",
     "vue": "3.2.37",
