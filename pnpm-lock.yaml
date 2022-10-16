@@ -14,7 +14,7 @@ specifiers:
   canvas-confetti: 1.5.1
   eslint: 8.23.0
   jsdom: 20.0.0
-  pnpm: 7.11.0
+  pnpm: 7.13.5
   seedrandom: 3.0.5
   typescript: 4.8.3
   unocss: 0.45.18
@@ -45,7 +45,7 @@ devDependencies:
   '@vue/test-utils': 2.0.2_vue@3.2.39
   eslint: 8.23.0
   jsdom: 20.0.0
-  pnpm: 7.11.0
+  pnpm: 7.13.5
   typescript: 4.8.3
   unocss: 0.45.18_vite@3.1.0
   unplugin-auto-import: 0.11.2_re6csl7eeastiiyshsk3b5ioaa
@@ -3184,8 +3184,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.11.0:
-    resolution: {integrity: sha512-cxh4TfCE8L4ZbLBN72kTGKTYP7X08nrIzoQ2rQCKihAcIHAdNIgsk4bEJyE1xHjE+bNJt9skwr7aJv3LpvUawQ==}
+  /pnpm/7.13.5:
+    resolution: {integrity: sha512-7+xyYPunBiAAJclpmUU2CTqe7uHipDjguUF2qmd9+r8hfZEVj0TnMTfblPnRF9aiVsmE4X3zRPlY3A5zk7r73w==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
