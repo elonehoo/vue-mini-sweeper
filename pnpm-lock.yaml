@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.26.3
-  '@iconify-json/carbon': 1.1.7
+  '@iconify-json/carbon': 1.1.9
   '@iconify-json/mdi': 1.1.31
   '@types/canvas-confetti': 1.4.3
   '@types/node': 17.0.45
@@ -35,7 +35,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.26.3_itqs5654cmlnjraw6gjzqacppi
-  '@iconify-json/carbon': 1.1.7
+  '@iconify-json/carbon': 1.1.9
   '@iconify-json/mdi': 1.1.31
   '@types/canvas-confetti': 1.4.3
   '@types/node': 17.0.45
@@ -265,20 +265,16 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.7:
-    resolution: {integrity: sha512-QULSpNWKaX4auIbjITDynfALdJYvOOy/xZb+aLOqCgvpBcmbz5tbqvow4r25FWtVsi4FHVpNQ8vyJZXsD1Hlxg==}
+  /@iconify-json/carbon/1.1.9:
+    resolution: {integrity: sha512-O3geRhhnE9dDDC4oT6qwBs7sdc37R9UqftiG7BP8YVDw8OcXv8i95J0ZEkIfdOXFj1Wb6kC/Uu/6VTlAqotVXg==}
     dependencies:
-      '@iconify/types': 1.0.13
+      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify-json/mdi/1.1.31:
     resolution: {integrity: sha512-2lUKoj6tqvVQ6q8XmhxfeqWdC34IhUpjz6eYMvwLLEgF+0cIL0ANLqBL7+/Vklt7Ugv5vJ0btJBHvW5Ij9Ikyw==}
     dependencies:
       '@iconify/types': 1.1.0
-    dev: true
-
-  /@iconify/types/1.0.13:
-    resolution: {integrity: sha512-jrJJVPnRM1HsMDnuHRTzMfgiSG6Z1U/2IYI7s8spFu9c7n1q3jcXa+3/YQz4tJVNgAhzm1dbnMxfIAyLDpCaWg==}
     dev: true
 
   /@iconify/types/1.1.0:
