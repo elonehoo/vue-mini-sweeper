@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.32.0",
+  "packageManager": "pnpm@7.32.2",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -10,30 +10,30 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@vueuse/core": "10.0.2",
+    "@vueuse/core": "10.1.0",
     "canvas-confetti": "1.6.0",
     "seedrandom": "3.0.5",
     "vue": "3.2.47",
     "vue-router": "4.1.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.38.4",
+    "@antfu/eslint-config": "0.38.5",
     "@iconify-json/carbon": "1.1.16",
     "@iconify-json/mdi": "1.1.50",
     "@types/canvas-confetti": "1.6.0",
-    "@types/node": "18.15.11",
+    "@types/node": "18.16.3",
     "@types/seedrandom": "3.0.5",
-    "@unocss/reset": "0.51.4",
-    "@vitejs/plugin-vue": "4.1.0",
+    "@unocss/reset": "0.51.8",
+    "@vitejs/plugin-vue": "4.2.1",
     "@vue/test-utils": "2.3.2",
-    "eslint": "8.38.0",
+    "eslint": "8.39.0",
     "jsdom": "21.1.1",
-    "pnpm": "7.32.0",
+    "pnpm": "7.32.2",
     "typescript": "5.0.4",
-    "unocss": "0.51.4",
+    "unocss": "0.51.8",
     "unplugin-auto-import": "0.15.3",
     "unplugin-vue-components": "0.24.1",
-    "vite": "4.2.1",
+    "vite": "4.3.3",
     "vite-plugin-pages": "0.29.0",
     "vitest": "0.30.1"
   },
