@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@vueuse/core": "10.1.2",
+    "@vueuse/core": "10.2.0",
     "canvas-confetti": "1.6.0",
     "seedrandom": "3.0.5",
     "vue": "3.3.4",
@@ -18,15 +18,15 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.39.5",
-    "@iconify-json/carbon": "1.1.17",
+    "@iconify-json/carbon": "1.1.18",
     "@iconify-json/mdi": "1.1.52",
     "@types/canvas-confetti": "1.6.0",
-    "@types/node": "18.16.17",
+    "@types/node": "18.16.18",
     "@types/seedrandom": "3.0.5",
     "@unocss/reset": "0.53.1",
     "@vitejs/plugin-vue": "4.2.3",
     "@vue/test-utils": "2.3.2",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "jsdom": "22.1.0",
     "pnpm": "8.6.2",
     "typescript": "5.1.3",
@@ -35,7 +35,7 @@
     "unplugin-vue-components": "0.25.1",
     "vite": "4.3.9",
     "vite-plugin-pages": "0.31.0",
-    "vitest": "0.32.0"
+    "vitest": "0.32.2"
   },
   "eslintConfig": {
     "extends": "@antfu"
