@@ -14,28 +14,28 @@
     "canvas-confetti": "1.6.0",
     "seedrandom": "3.0.5",
     "vue": "3.3.4",
-    "vue-router": "4.2.4"
+    "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.42.0",
+    "@antfu/eslint-config": "0.43.1",
     "@iconify-json/carbon": "1.1.21",
     "@iconify-json/mdi": "1.1.54",
     "@types/canvas-confetti": "1.6.1",
-    "@types/node": "18.17.17",
+    "@types/node": "18.17.19",
     "@types/seedrandom": "3.0.5",
-    "@unocss/reset": "0.55.7",
+    "@unocss/reset": "0.56.1",
     "@vitejs/plugin-vue": "4.3.4",
     "@vue/test-utils": "2.4.1",
-    "eslint": "8.49.0",
+    "eslint": "8.50.0",
     "jsdom": "22.1.0",
     "pnpm": "8.7.6",
     "typescript": "5.2.2",
-    "unocss": "0.55.7",
+    "unocss": "0.56.1",
     "unplugin-auto-import": "0.16.6",
     "unplugin-vue-components": "0.25.2",
     "vite": "4.4.9",
     "vite-plugin-pages": "0.31.0",
-    "vitest": "0.34.4"
+    "vitest": "0.34.5"
   },
   "eslintConfig": {
     "extends": "@antfu"
