@@ -1,4 +1,5 @@
 import type { Ref } from 'vue'
+
 // import type createSeedrandom from 'seedrandom'
 import type { BlockState } from '~/types'
 
@@ -56,16 +57,12 @@ export class GamePlay {
     this.state.value = {
       mineGenerated: false,
       status: 'ready',
-      board: Array.from({ length: this.height }, (_, y) =>
-        Array.from({ length: this.width },
-          (_, x): BlockState => ({
-            x,
-            y,
-            adjacentMines: 0,
-            revealed: false,
-          }),
-        ),
-      ),
+      board: Array.from({ length: this.height }, (_, y) => Array.from({ length: this.width }, (_, x): BlockState => ({
+        x,
+        y,
+        adjacentMines: 0,
+        revealed: false,
+      }))),
     }
   }
 
