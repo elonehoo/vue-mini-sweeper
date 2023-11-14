@@ -22,7 +22,7 @@
     "@iconify-json/carbon": "1.1.21",
     "@iconify-json/mdi": "1.1.55",
     "@types/canvas-confetti": "1.6.3",
-    "@types/node": "18.18.9",
+    "@types/node": "20.9.0",
     "@types/seedrandom": "3.0.8",
     "@unocss/reset": "0.57.3",
     "@vitejs/plugin-vue": "4.4.1",
