@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.14.1",
+  "packageManager": "pnpm@8.15.0",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -23,22 +23,22 @@
     "@iconify-json/carbon": "1.1.28",
     "@iconify-json/mdi": "1.1.64",
     "@types/canvas-confetti": "1.6.4",
-    "@types/node": "20.11.5",
+    "@types/node": "20.11.10",
     "@types/seedrandom": "3.0.8",
-    "@unocss/reset": "0.58.3",
+    "@unocss/reset": "0.58.4",
     "@vitejs/plugin-vue": "5.0.3",
-    "@vue/test-utils": "2.4.3",
+    "@vue/test-utils": "2.4.4",
     "eslint": "8.56.0",
     "jsdom": "23.2.0",
-    "pnpm": "8.14.1",
+    "pnpm": "8.15.0",
     "typescript": "5.3.3",
-    "unocss": "0.58.3",
-    "unplugin-auto-import": "0.17.3",
+    "unocss": "0.58.4",
+    "unplugin-auto-import": "0.17.5",
     "unplugin-vue-components": "0.26.0",
     "unplugin-vue-macros": "^2.7.10",
     "vite": "5.0.12",
     "vite-plugin-pages": "0.32.0",
-    "vitest": "1.2.1"
+    "vitest": "1.2.2"
   },
   "eslintConfig": {
     "extends": "@antfu"
