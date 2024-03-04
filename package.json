@@ -12,18 +12,18 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@vueuse/core": "10.8.0",
+    "@vueuse/core": "10.9.0",
     "canvas-confetti": "1.9.2",
     "seedrandom": "3.0.5",
-    "vue": "3.4.20",
+    "vue": "3.4.21",
     "vue-router": "4.3.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.6.4",
+    "@antfu/eslint-config": "2.7.0",
     "@iconify-json/carbon": "1.1.30",
     "@iconify-json/mdi": "1.1.64",
     "@types/canvas-confetti": "1.6.4",
-    "@types/node": "20.11.20",
+    "@types/node": "20.11.24",
     "@types/seedrandom": "3.0.8",
     "@unocss/reset": "0.58.5",
     "@vitejs/plugin-vue": "5.0.4",
