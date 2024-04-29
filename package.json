@@ -15,11 +15,11 @@
     "@vueuse/core": "10.9.0",
     "canvas-confetti": "1.9.2",
     "seedrandom": "3.0.5",
-    "vue": "3.4.23",
+    "vue": "3.4.25",
     "vue-router": "4.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.15.0",
+    "@antfu/eslint-config": "2.16.0",
     "@iconify-json/carbon": "1.1.31",
     "@iconify-json/mdi": "1.1.66",
     "@types/canvas-confetti": "1.6.4",
@@ -38,7 +38,7 @@
     "unplugin-vue-macros": "^2.9.1",
     "vite": "5.2.10",
     "vite-plugin-pages": "0.32.1",
-    "vitest": "1.5.0"
+    "vitest": "1.5.2"
   },
   "eslintConfig": {
     "extends": "@antfu"
