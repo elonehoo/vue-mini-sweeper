@@ -19,7 +19,7 @@
     "vue-router": "4.4.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.21.3",
+    "@antfu/eslint-config": "2.22.2",
     "@iconify-json/carbon": "1.1.36",
     "@iconify-json/mdi": "1.1.67",
     "@types/canvas-confetti": "1.6.4",
@@ -33,7 +33,7 @@
     "pnpm": "8.15.8",
     "typescript": "5.5.3",
     "unocss": "0.61.3",
-    "unplugin-auto-import": "0.17.6",
+    "unplugin-auto-import": "0.18.0",
     "unplugin-vue-components": "0.27.2",
     "unplugin-vue-macros": "^2.9.5",
     "vite": "5.3.3",
