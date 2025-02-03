@@ -38,7 +38,7 @@
     "unplugin-vue-macros": "^2.13.7",
     "vite": "6.0.7",
     "vite-plugin-pages": "0.32.4",
-    "vitest": "2.1.8"
+    "vitest": "3.0.5"
   },
   "eslintConfig": {
     "extends": "@antfu"
