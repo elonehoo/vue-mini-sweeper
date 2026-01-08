@@ -33,7 +33,7 @@
     "typescript": "5.8.2",
     "unocss": "65.5.0",
     "unplugin-auto-import": "19.1.1",
-    "unplugin-vue-components": "28.4.1",
+    "unplugin-vue-components": "30.0.0",
     "unplugin-vue-macros": "^2.14.5",
     "vite": "6.2.3",
     "vite-plugin-pages": "0.32.5",
