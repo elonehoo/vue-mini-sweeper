@@ -35,7 +35,7 @@
     "unplugin-auto-import": "19.1.1",
     "unplugin-vue-components": "28.4.1",
     "unplugin-vue-macros": "^2.14.5",
-    "vite": "6.2.3",
+    "vite": "7.3.1",
     "vite-plugin-pages": "0.32.5",
     "vitest": "3.0.9"
   },
