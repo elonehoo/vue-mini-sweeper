@@ -27,7 +27,7 @@
     "@unocss/reset": "65.5.0",
     "@vitejs/plugin-vue": "5.2.3",
     "@vue/test-utils": "2.4.6",
-    "eslint": "9.23.0",
+    "eslint": "10.10.0",
     "jsdom": "26.0.0",
     "pnpm": "10.6.5",
     "typescript": "5.8.2",
