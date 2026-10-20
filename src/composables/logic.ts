@@ -86,12 +86,11 @@ export class GamePlay {
       block.mine = true
       return true
     }
-    Array.from({ length: this.mines }, () => null)
-      .forEach(() => {
-        let placed = false
-        while (!placed)
-          placed = placeRandom()
-      })
+    Array.from({ length: this.mines }).fill(null).forEach(() => {
+      let placed = false
+      while (!placed)
+        placed = placeRandom()
+    })
     this.updateNumbers()
   }
 
@@ -135,7 +134,7 @@ export class GamePlay {
   onClick(block: BlockState) {
     if (this.state.value.status === 'ready') {
       this.state.value.status = 'play'
-      this.state.value.startMS = +new Date()
+      this.state.value.startMS = Date.now()
     }
     if (this.state.value.status !== 'play' || block.flagged)
       return
